@@ -56,7 +56,7 @@ fun AddScreen(innerPadding: PaddingValues, navController: NavHostController)
         TextField(
             value = description,
             onValueChange = {description = it},
-            label = { Text("Enter task") },
+            label = { Text("Enter task description") },
             modifier = Modifier
                 .padding(10.dp)
                 .fillMaxWidth()

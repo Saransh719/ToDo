@@ -89,7 +89,7 @@ fun DescAppBar(navController: NavHostController, index : Int)
 @Composable
 fun EditAppBar(navController: NavHostController, index: Int)
 {
-    TopAppBar(title ={ Text("Add task") },
+    TopAppBar(title ={ Text("Edit task") },
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = TODO_Color.DarkGreen
         ),
